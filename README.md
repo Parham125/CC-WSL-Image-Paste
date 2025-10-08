@@ -1,11 +1,11 @@
 # CC-WSL-Image-Paste
 
-A Windows utility that automatically converts Windows screenshot paths to WSL paths and pastes them using a hotkey (Alt+V).
+A Windows utility that automatically converts Windows screenshot paths to WSL paths and pastes them using a hotkey (Alt+V). Perfect for quickly sharing screenshots with Claude Code running in WSL.
 
 ## Features
 
 - Monitors Windows Screenshots folder
-- Converts Windows paths to WSL format
+- Converts Windows paths to WSL format for Claude Code compatibility
 - Global hotkey (Alt+V) to paste latest screenshot path
 - Runs silently in background with `pythonw.exe`
 - Easy startup management
@@ -88,6 +88,13 @@ Example pasted path:
 ```
 /mnt/c/Users/YourUsername/Pictures/Screenshots/Screenshot_2025-10-08.png
 ```
+
+### Use Case: Claude Code Screenshots
+
+This tool is particularly useful when working with Claude Code in WSL. When you want to share a screenshot with Claude Code:
+1. Take a Windows screenshot (Win+Shift+S)
+2. In your WSL terminal running Claude Code, press **Alt+V**
+3. The WSL-formatted path is instantly pasted, ready for Claude Code to read the image
 
 ## How It Works
 
