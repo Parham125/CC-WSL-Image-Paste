@@ -1,4 +1,4 @@
-# CC-WSL-Image-Paste
+# Claude Code WSL Image Paste
 
 A Windows utility that automatically converts Windows screenshot paths to WSL paths and pastes them using a hotkey (Alt+V). Perfect for quickly sharing screenshots with Claude Code running in WSL.
 
